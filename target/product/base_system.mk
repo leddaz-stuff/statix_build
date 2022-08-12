@@ -79,6 +79,7 @@ PRODUCT_PACKAGES += \
     DownloadProvider \
     dpm \
     dump.erofs \
+    dump.exfat \
     dumpstate \
     dumpsys \
     DynamicSystemInstallationService \
@@ -90,6 +91,7 @@ PRODUCT_PACKAGES += \
     framework-res \
     framework-sysconfig.xml \
     fsck.erofs \
+    fsck.exfat \
     fsck_msdos \
     fsverity-release-cert-der \
     fs_config_files_system \
@@ -214,6 +216,7 @@ PRODUCT_PACKAGES += \
     mediaserver \
     mke2fs \
     mkfs.erofs \
+    mkfs.exfat \
     monkey \
     mtpd \
     ndc \
@@ -320,10 +323,12 @@ PRODUCT_HOST_PACKAGES += \
     bcc \
     bit \
     dump.erofs \
+    dump.exfat \
     e2fsck \
     fastboot \
     flags_health_check \
     fsck.erofs \
+    fsck.exfat \
     icu-data_host_i18n_apex \
     icu_tzdata.dat_host_tzdata_apex \
     idmap2 \
@@ -334,6 +339,7 @@ PRODUCT_HOST_PACKAGES += \
     minigzip \
     mke2fs \
     mkfs.erofs \
+    mkfs.exfat \
     resize2fs \
     sgdisk \
     sqlite3 \
